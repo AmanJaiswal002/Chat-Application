@@ -1,0 +1,8 @@
+{
+  "name": "chat-app-frontend",
+  "version": "1.0.0",
+  "description": "Frontend terminal setup to run the chat server",
+  "scripts": {
+    "dev": "nodemon ../backend/app.js"
+  }
+}

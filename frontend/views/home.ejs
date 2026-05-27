@@ -1,0 +1,16 @@
+<%- include('particals/header') %>
+<%- include('particals/navbar') %>
+
+<div class="hero">
+    <h1>Welcome to <br><span style="color: var(--primary)">My Chat App</span></h1>
+    <p>Simple, fast, and real-time messaging for everyone.</p>
+    <% if(!currentUser) { %>
+        <a href="/register" class="hero-btn">Get Start Chat</a>
+    <% } else { %>
+        <a href="/messages" class="hero-btn">Get Start Chat</a>
+    <% } %>
+</div>
+
+
+
+<%- include('particals/footer') %>

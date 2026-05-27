@@ -1,0 +1,8 @@
+{
+  "name": "chat-app-backend",
+  "version": "1.0.0",
+  "description": "Backend terminal setup to display the application link",
+  "scripts": {
+    "dev": "node -e \"console.log('\\n\\n🚀 Click to open: http://localhost:3000\\n\\n')\""
+  }
+}
